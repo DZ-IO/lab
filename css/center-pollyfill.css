@@ -1,0 +1,9 @@
+/* center-pollyfill */
+/* BY 大泽 */
+/* ps: 在 HTML 4.01 中，center 元素不被赞成使用，建议使用 CSS 样式来居中文本！ */
+/*     但是我感觉这玩意挺好用的就写了个pollyfill，以纪念被放弃的center标签 */
+/*     反向pollyfill估计很少有人干吧 */
+center {
+  display: block;
+  text-align: center;
+}
